@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "frontend-client": "apps/frontend-client",
-    "frontend-client-e2e": "apps/frontend-client-e2e"
+    "frontend-client-e2e": "apps/frontend-client-e2e",
+    "interfaces": "libs/interfaces",
+    "ui": "libs/ui"
   }
 }
