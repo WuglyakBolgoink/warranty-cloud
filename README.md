@@ -1,6 +1,47 @@
+# Warranty-Cloud
 
+## ToDo
 
-# WarrantyCloud
+- [x] prepare
+  - [x] add/change project configs  
+  - [x] create empty workspace
+- [ ] front-end
+  - [x] add frontend client into nx workspace based on angular framework
+  - [x] create shared library - "ui" (for taiga-ui and custom ui components)
+  - [ ] use thirdparty packages
+    - [x] add taiga-ui
+    - [ ] add ngrx
+    - [ ] add ag-grid
+  - [ ] add page modules
+    - [ ] create "onboarding" module
+      - [ ] create "login" page
+      - [ ] create "registration" page
+      - [ ] create "email-confirmation" page
+    - [ ] create "dashboard" module
+    - [ ] create "settings" module
+    - [ ] create "categories" module
+    - [ ] create "places" module
+    - [ ] ...tbd...
+  - [ ] ...tbd...
+- [ ] backend
+  - [ ] add backend client into nx workspace based on nest framework
+  - [ ] use swagger
+  - [ ] use OpenAPI
+  - [ ] ...tbd...
+- [ ] diverse tasks related to front-/back-end
+  - [x] create shared library - "interfaces"
+- [ ] DevOps
+  - [ ] add diverse docker-compose configurations
+  - [ ] add configs for DB (postgres)
+  - [ ] add configs for pg-admin
+  - [ ] add configs for frontend server (nginx)
+  - [ ] add configs for backend server (nodejs)
+  - [ ] add configs for ELK
+  - [ ] add configs for Auth based on [keycloak](https://www.keycloak.org/) framework
+  - [ ] ...tbd...
+- [ ] ...tbd...
+
+----
 
 This project was generated using [Nx](https://nx.dev).
 
