@@ -4,16 +4,16 @@ import { RouterModule } from '@angular/router';
 import { SharedUiModule } from '@warranty-cloud/ui';
 
 import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [
+    AppComponent,
+  ],
   imports: [
     BrowserModule,
     SharedUiModule,
     RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
   ],
-  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {
